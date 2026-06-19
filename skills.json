@@ -1,91 +1,86 @@
-{
-  "name": "novahim-skills",
-  "description": "Скилы для агентов Новахим",
-  "version": "1.0.0",
-  "skills": [
-    {
-      "id": "brainstorming",
-      "name": "Brainstorming",
-      "description": "Генерация креативных идей, контента и маркетинговых решений",
-      "type": "prompt",
-      "path": "brainstorming/skill.md"
-    },
-    {
-      "id": "novakhim-bitrix-leads",
-      "name": "Novakhim Bitrix Leads",
-      "description": "Инструкции по обработке, квалификации и ведению лидов в Битрикс24",
-      "type": "prompt",
-      "path": "novakhim-bitrix-leads/skill.md"
-    },
-    {
-      "id": "novakhim-competitor",
-      "name": "Novakhim Competitor",
-      "description": "Анализ конкурентной среды, сильных и слабых сторон продуктов",
-      "type": "prompt",
-      "path": "novakhim-competitor/skill.md"
-    },
-    {
-      "id": "novakhim-content",
-      "name": "Novakhim Content",
-      "description": "Создание текстовых материалов, статей и публикаций для Новахим",
-      "type": "prompt",
-      "path": "novakhim-content/skill.md"
-    },
-    {
-      "id": "novakhim-designer-brief",
-      "name": "Novakhim Designer Brief",
-      "description": "Формирование и валидация технических заданий (брифов) для дизайнеров",
-      "type": "prompt",
-      "path": "novakhim-designer-brief/skill.md"
-    },
-    {
-      "id": "novakhim-direct",
-      "name": "Novakhim Direct",
-      "description": "Настройка, оптимизация и генерация объявлений для Яндекс.Директ",
-      "type": "prompt",
-      "path": "novakhim-direct/skill.md"
-    },
-    {
-      "id": "novakhim-roistat-report",
-      "name": "Novakhim Roistat Report",
-      "description": "Интерпретация сквозной аналитики и отчетов из системы Roistat",
-      "type": "prompt",
-      "path": "novakhim-roistat-report/skill.md"
-    },
-    {
-      "id": "novakhim-seo",
-      "name": "Novakhim SEO",
-      "description": "Поисковая оптимизация, сбор семантики и аудит страниц для Новахим",
-      "type": "prompt",
-      "path": "novakhim-seo/skill.md"
-    },
-    {
-      "id": "novakhim-tender",
-      "name": "Novakhim Tender",
-      "description": "Анализ тендерной документации, требований и подготовка заявок",
-      "type": "prompt",
-      "path": "novakhim-tender/skill.md"
-    },
-    {
-      "id": "requesting-code-review",
-      "name": "Requesting Code Review",
-      "description": "Проведение аудит-контроля кодовой базы и проверка на соответствие стандартам",
-      "type": "prompt",
-      "path": "requesting-code-review/skill.md"
-    },
-    {
-      "id": "systematic-debugging",
-      "name": "Systematic Debugging",
-      "description": "Пошаговый поиск архитектурных ошибок, багов и проблем в веб-приложениях",
-      "type": "prompt",
-      "path": "systematic-debugging/skill.md"
-    },
-    {
-      "id": "write-plan",
-      "name": "Write Plan",
-      "description": "Составление детальных планов выполнения задач, дорожных карт и графиков",
-      "type": "prompt",
-      "path": "write-plan/skill.md"
-    }
-  ]
-}
+[
+  {
+    "id": "brainstorming",
+    "name": "Brainstorming",
+    "description": "Генерация креативных идей и контента",
+    "type": "prompt",
+    "path": "brainstorming/skill.md"
+  },
+  {
+    "id": "novakhim-bitrix-leads",
+    "name": "Novakhim Bitrix Leads",
+    "description": "Обработка и квалификация лидов в Битрикс24",
+    "type": "prompt",
+    "path": "novakhim-bitrix-leads/skill.md"
+  },
+  {
+    "id": "novakhim-competitor",
+    "name": "Novakhim Competitor",
+    "description": "Анализ конкурентной среды",
+    "type": "prompt",
+    "path": "novakhim-competitor/skill.md"
+  },
+  {
+    "id": "novakhim-content",
+    "name": "Novakhim Content",
+    "description": "Создание текстовых материалов для Новахим",
+    "type": "prompt",
+    "path": "novakhim-content/skill.md"
+  },
+  {
+    "id": "novakhim-designer-brief",
+    "name": "Novakhim Designer Brief",
+    "description": "Формирование ТЗ для дизайнеров",
+    "type": "prompt",
+    "path": "novakhim-designer-brief/skill.md"
+  },
+  {
+    "id": "novakhim-direct",
+    "name": "Novakhim Direct",
+    "description": "Настройка объявлений для Яндекс.Директ",
+    "type": "prompt",
+    "path": "novakhim-direct/skill.md"
+  },
+  {
+    "id": "novakhim-roistat-report",
+    "name": "Novakhim Roistat Report",
+    "description": "Интерпретация отчетов из системы Roistat",
+    "type": "prompt",
+    "path": "novakhim-roistat-report/skill.md"
+  },
+  {
+    "id": "novakhim-seo",
+    "name": "Novakhim SEO",
+    "description": "Поисковая оптимизация и аудит для Новахим",
+    "type": "prompt",
+    "path": "novakhim-seo/skill.md"
+  },
+  {
+    "id": "novakhim-tender",
+    "name": "Novakhim Tender",
+    "description": "Анализ тендерной документации",
+    "type": "prompt",
+    "path": "novakhim-tender/skill.md"
+  },
+  {
+    "id": "requesting-code-review",
+    "name": "Requesting Code Review",
+    "description": "Проведение аудит-контроля кодовой базы",
+    "type": "prompt",
+    "path": "requesting-code-review/skill.md"
+  },
+  {
+    "id": "systematic-debugging",
+    "name": "Systematic Debugging",
+    "description": "Пошаговый поиск архитектурных ошибок и багов",
+    "type": "prompt",
+    "path": "systematic-debugging/skill.md"
+  },
+  {
+    "id": "write-plan",
+    "name": "Write Plan",
+    "description": "Составление детальных планов выполнения задач",
+    "type": "prompt",
+    "path": "write-plan/skill.md"
+  }
+]
