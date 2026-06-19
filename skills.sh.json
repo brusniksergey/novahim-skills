@@ -1,0 +1,34 @@
+{
+  "name": "novakhim-hermes-skills",
+  "description": "Скиллы AI-маркетинга НОВАХИМ для Hermes Agent (NOVAKHIM Superpowers).",
+  "version": "1.0.0",
+  "groupings": [
+    {
+      "title": "NOVAKHIM · Маркетинг и продажи",
+      "skills": [
+        "novakhim-seo",
+        "novakhim-direct",
+        "novakhim-content",
+        "novakhim-roistat-report",
+        "novakhim-bitrix-leads",
+        "novakhim-competitor",
+        "novakhim-tender"
+      ]
+    },
+    {
+      "title": "NOVAKHIM · Дизайн",
+      "skills": [
+        "novakhim-designer-brief"
+      ]
+    },
+    {
+      "title": "Утилиты (мета-скиллы)",
+      "skills": [
+        "brainstorming",
+        "write-plan",
+        "systematic-debugging",
+        "requesting-code-review"
+      ]
+    }
+  ]
+}
